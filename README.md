@@ -209,26 +209,10 @@ api-to-sheets-agent-v2/
 ├── scripts/
 │   ├── setup_claude.py       # Configuration Claude Desktop
 │   └── fix_imports.py        # Correction imports Python
-├── tests/
-│   ├── unit_tests/           # Tests unitaires
-│   └── integration_tests/    # Tests d'intégration
 ├── .env.example              # Template configuration
 ├── langgraph.json           # Configuration LangGraph
 ├── requirements.txt         # Dépendances Python
 └── pyproject.toml          # Configuration projet
-```
-
-### Tests
-
-```bash
-# Tests unitaires
-pytest tests/unit_tests/
-
-# Tests d'intégration
-pytest tests/integration_tests/
-
-# Avec coverage
-pytest --cov=src tests/
 ```
 
 ### Linting et Formatage
@@ -329,14 +313,6 @@ python scripts/fix_imports.py
 # Test complet de l'agent
 python src/agent/graph.py
 ```
-
-## 🤝 Contribution
-
-1. **Fork** le projet
-2. **Créer** une branche feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** vos changements (`git commit -m 'Add AmazingFeature'`)
-4. **Push** vers la branche (`git push origin feature/AmazingFeature`)
-5. **Ouvrir** une Pull Request
 
 ## 📝 Changelog
 
